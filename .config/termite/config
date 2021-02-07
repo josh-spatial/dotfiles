@@ -75,57 +75,97 @@ highlight = #2f2f2f
 # color15 = #ffffff
 
 ########## Custom color config !!!!!!!
-[colors]
-# Base16 Solarized Dark
-# Author: Ethan Schoonover (modified by aramisgithub)
-
-foreground          = #93a1a1
-foreground_bold     = #93a1a1
-cursor              = #93a1a1
-cursor_foreground   = #002b36
-background          = rgba(0,43,54,0.95)
-
-# 16 color space
-
-# Black, Gray, Silver, White
-color0  = #002b36
-color8  = #657b83
-color7  = #93a1a1
-color15 = #fdf6e3
-
-# Red
-color1  = #dc322f
-color9  = #dc322f
-
-# Green
-color2  = #859900
-color10 = #859900
-
-# Yellow
-color3  = #b58900
-color11 = #b58900
-
-# Blue
-color4  = #268bd2
-color12 = #268bd2
-
-# Purple
-color5  = #6c71c4
-color13 = #6c71c4
-
-# Teal
-color6  = #2aa198
-color14 = #2aa198
-
-# Extra colors
-color16 = #cb4b16
-color17 = #d33682
-color18 = #073642
-color19 = #586e75
-color20 = #839496
-color21 = #eee8d5
-
+#[colors]
+## Base16 Solarized Dark
+## Author: Ethan Schoonover (modified by aramisgithub)
+#
+#foreground          = #93a1a1
+#foreground_bold     = #93a1a1
+#cursor              = #93a1a1
+#cursor_foreground   = #002b36
+#background          = rgba(0,43,54,0.95)
+#
+## 16 color space
+#
+## Black, Gray, Silver, White
+#color0  = #002b36
+#color8  = #657b83
+#color7  = #93a1a1
+#color15 = #fdf6e3
+#
+## Red
+#color1  = #dc322f
+#color9  = #dc322f
+#
+## Green
+#color2  = #859900
+#color10 = #859900
+#
+## Yellow
+#color3  = #b58900
+#color11 = #b58900
+#
+## Blue
+#color4  = #268bd2
+#color12 = #268bd2
+#
+## Purple
+#color5  = #6c71c4
+#color13 = #6c71c4
+#
+## Teal
+#color6  = #2aa198
+#color14 = #2aa198
+#
+## Extra colors
+#color16 = #cb4b16
+#color17 = #d33682
+#color18 = #073642
+#color19 = #586e75
+#color20 = #839496
+#color21 = #eee8d5
+#
 [hints]
+# gruvbox color theme
+[colors]
+# hard contrast: background = #1d2021
+background = #282828
+# soft contrast: background = #32302f
+foreground = #ebdbb2
+foreground_bold = #ebdbb2
+
+# dark0 + gray
+color0 = #282828
+color8 = #928374
+
+# neutral_red + bright_red
+color1 = #cc241d
+color9 = #fb4934
+
+# neutral_green + bright_green
+color2 = #98971a
+color10 = #b8bb26
+
+# neutral_yellow + bright_yellow
+color3 = #d79921
+color11 = #fabd2f
+
+# neutral_blue + bright_blue
+color4 = #458588
+color12 = #83a598
+
+# neutral_purple + bright_purple
+color5 = #b16286
+color13 = #d3869b
+
+# neutral_aqua + faded_aqua
+color6 = #689d6a
+color14 = #8ec07c
+
+# light4 + light1
+color7 = #a89984
+color15 = #ebdbb2
+
 #font = Monospace 12
 #foreground = #dcdccc
 #background = #3f3f3f

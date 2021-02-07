@@ -134,16 +134,18 @@ screens = [
                     padding = 8
                     ),
                 widget.TextBox(
-                    text = "",
+                    #text = "",
+                    text = " pkgs:",
+                    padding = 0
                     ),
                 widget.Pacman(),
                 #widget.OpenWeather(),
-                widget.Sep(),
-                widget.Wlan(),
-                widget.Net(
-                    format = ' {down} ↓↑ {up} ',
-                    padding = 0
-                    ),
+                #widget.Sep(),
+                #widget.Wlan(),
+                #widget.Net(
+                #    format = ' {down} ↓↑ {up} ',
+                #    padding = 0
+                #    ),
                 widget.Sep(),
                 widget.TextBox(
                     text = " Vol",
