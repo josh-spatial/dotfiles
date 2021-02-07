@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # JMW - aliases
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="nivm ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zsh"
+alias vim='nvim'
+export EDITOR='nvim'
