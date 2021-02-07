@@ -1,0 +1,5 @@
+nitrogen --restore &
+redshift -l 38.297680:-76.919730 &
+$HOME/.screenlayout/external-display.sh
+
+picom &
