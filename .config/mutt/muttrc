@@ -3,3 +3,11 @@ source /usr/share/mutt-wizard/mutt-wizard.muttrc
 source /home/josh/.config/mutt/accounts/1-wustner@mailbox.org.muttrc
 macro index,pager i1 '<sync-mailbox><enter-command>source /home/josh/.config/mutt/accounts/1-wustner@mailbox.org.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to wustner@mailbox.org"
 macro index,pager i2 '<sync-mailbox><enter-command>source /home/josh/.config/mutt/accounts/2-wustner@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to wustner@gmail.com"
+
+# josh's personal settings changes:
+set date_format="%a %m/%d/%Y %I:%M%p"
+color indicator black brightblack
+#neomutt default index format
+#set index_format="%4C %Z %{%b %d} %-15.15L (%?l?%4l&%4c?) %s"
+#muttwizard default - edited slightly for a wider "from" line
+set index_format="%2C %Z %?X?A& ? %D %-30.30F %s (%-4.4c)"
